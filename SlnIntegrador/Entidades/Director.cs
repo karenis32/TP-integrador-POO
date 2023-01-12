@@ -10,11 +10,13 @@ namespace Entidades
     {
         public string Especialidad { get; set; }
         public int Matricula { get; set; }
+        public string PostGrado { get; set; }
 
-        public Director(int id, string nombre, string apellido, string domicilio, string telefono, string email, string Especialidad, int Matricula) : base(id, nombre, apellido, domicilio, telefono, email)
+        public Director(int id, string nombre, string apellido, string domicilio, string telefono, string email, string Especialidad, int Matricula, string PostGrado) : base(id, nombre, apellido, domicilio, telefono, email)
         {
             this.Especialidad = Especialidad;
-
+            this.Matricula = Matricula;
+            this.PostGrado = PostGrado;
         }
     }
 }
