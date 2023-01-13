@@ -1,0 +1,6 @@
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Entidades\bin\Debug\Entidades.dll
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Entidades\bin\Debug\Entidades.pdb
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Entidades\obj\Debug\Entidades.dll
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Entidades\obj\Debug\Entidades.pdb

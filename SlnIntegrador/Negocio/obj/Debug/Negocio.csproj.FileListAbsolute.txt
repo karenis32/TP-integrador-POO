@@ -1,0 +1,11 @@
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\bin\Debug\Negocio.dll
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\bin\Debug\Negocio.pdb
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\bin\Debug\Datos.dll
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\bin\Debug\Entidades.dll
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\bin\Debug\Datos.pdb
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\bin\Debug\Entidades.pdb
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\obj\Debug\Negocio.csproj.AssemblyReference.cache
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\obj\Debug\Negocio.csproj.CopyComplete
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\obj\Debug\Negocio.dll
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\obj\Debug\Negocio.pdb

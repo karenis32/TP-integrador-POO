@@ -8,12 +8,11 @@ using Datos;
 
 namespace Negocio
 {
-    static class AdmMedico
+    public static class AdmMedico
     {
-        static List<Medico> ListaMedicos { get; set; }
-
-
-        static List<Medico> Listar()
+        public static List<Medico> ListaMedicos { get; set; }
+        
+        public static List<Medico> Listar()
         {
             /*
             //TODO Falta implementar código - Select a la tabla Medico....
@@ -31,25 +30,27 @@ namespace Negocio
 
         }
 
-        static List<Medico> Listar(string especialidad)
+        public static List<Medico> Listar(string especialidad)
         {
             //TODO Falta implementar código - Select a la tabla Medico filtrando especialidad....
             return null;
+
+           
         }
 
-        static int Insertar (Medico medico)
+        public static int Insertar (Medico medico)
         {
             //TODO Falta implementar código - Insert a la tabla Medico...
             return 0;
         }
 
-        static int Eliminar (int id)
+        public static int Eliminar (int id)
         {
             //TODO Falta implementar código - Delete en la tabla Medico...
             return 0;
         }
 
-        static Medico TraerUno (int id)
+        public static Medico TraerUno (int id)
         {
             //TODO Falta implementar código - Select a la tabla Medico....
             return null ;

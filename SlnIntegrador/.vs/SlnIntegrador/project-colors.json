@@ -20,7 +20,12 @@
       "ProjectGuid": "139380ad-15b6-4ab8-b44d-106b96b0b6bc",
       "DisplayName": "Datos",
       "ColorIndex": 3
+    },
+    "78775e98-fe84-4768-836a-52fd43a45489": {
+      "ProjectGuid": "78775e98-fe84-4768-836a-52fd43a45489",
+      "DisplayName": "WindowsFormsApp1",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }

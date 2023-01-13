@@ -8,11 +8,11 @@ using Datos;
 
 namespace Negocio
 {
-    static class AdmPaciente
+    public static class AdmPaciente
     {
-        static List<Paciente> Listapacientes { get; set; }
+        public static List<Paciente> Listapacientes { get; set; }
 
-        static List<Paciente> Listar()
+        public static List<Paciente> Listar()
         {
             //TODO Falta implementar código - Select a la tabla Paciente....
             //return null;
@@ -28,19 +28,19 @@ namespace Negocio
             return ListaPaciente;
         }
 
-        static int Insertar(Paciente paciente)
+        public static int Insertar(Paciente paciente)
         {
             //TODO Falta implementar código - Insert a la tabla Paciente...
             return 0;
         }
 
-        static int Eliminar(int id)
+        public static int Eliminar(int id)
         {
             //TODO Falta implementar código - Delete en la tabla Paciente...
             return 0;
         }
 
-        static Paciente TraerUno(int nroHistoriaClinica)
+        public static Paciente TraerUno(int nroHistoriaClinica)
         {
             //TODO Falta implementar código - Select a la tabla Paciente....
             return null;
