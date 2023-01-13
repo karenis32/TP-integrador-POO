@@ -7,35 +7,35 @@ using Entidades;
 
 namespace Datos
 {
-    public class DacMedico
+    static class DacMedico
     {
-        public List<Medico> ListaMedicos { get; set; }
+        static List<Medico> ListaMedicos { get; set; }
 
-        public List<Medico> Select()
+        static List<Medico> Select()
         {
             //TODO Falta implementar código - Select a la tabla Medico....
             return null;
         }
 
-        public List<Medico> Select(string especialidad)
+        static List<Medico> Select(string especialidad)
         {
             //TODO Falta implementar código - Select a la tabla Medico filtrando especialidad....
             return null;
         }
 
-        public int Insert(Medico medico)
+        static int Insert(Medico medico)
         {
             //TODO Falta implementar código - Insert a la tabla Medico...
             return 0;
         }
 
-        public int Eliminar(int id)
+        static int Eliminar(int id)
         {
             //TODO Falta implementar código - Delete en la tabla Medico...
             return 0;
         }
 
-        public Medico SelectById(int id)
+        static Medico SelectById(int id)
         {
             //TODO Falta implementar código - Select a la tabla Medico....
             return null;

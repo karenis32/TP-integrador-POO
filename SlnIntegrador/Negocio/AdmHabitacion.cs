@@ -8,35 +8,45 @@ using Datos;
 
 namespace Negocio
 {
-    public class AdmHabitacion
+    static class AdmHabitacion
     {
-        public List<Habitacion> ListaHabitaciones { get; set; }
+        static List<Habitacion> ListaHabitaciones { get; set; }
 
-        public List<Habitacion> Listar()
+        static List<Habitacion> Listar()
         {
             //TODO Falta implementar código - Select a la tabla Habitacion....
-            return null;
+            //return null;
+
+            List<Habitacion> ListaHabitaciones = new List<Habitacion>();
+
+            ListaHabitaciones.Add(new Habitacion(1, 01, "Disponible"));
+            ListaHabitaciones.Add(new Habitacion(2, 02, "Ocupada"));
+            ListaHabitaciones.Add(new Habitacion(3, 03, "Disponible"));
+            ListaHabitaciones.Add(new Habitacion(4,04, "Disponible"));
+            ListaHabitaciones.Add(new Habitacion(5, 05, "Ocupada"));
+
+            return ListaHabitaciones;
         }
 
-        public List<Habitacion> Listar(string estado)
+        static List<Habitacion> Listar(string estado)
         {
             //TODO Falta implementar código - Select a la tabla Habitacion filtrando estado....
             return null;
         }
 
-        public int Insertar(Habitacion habitacion)
+        static int Insertar(Habitacion habitacion)
         {
             //TODO Falta implementar código - Insert a la tabla Habitacion...
             return 0;
         }
 
-        public int Eliminar(int id)
+        static int Eliminar(int id)
         {
             //TODO Falta implementar código - Delete en la tabla Habitacion...
             return 0;
         }
 
-        public Habitacion TraerUno(int numero)
+        static Habitacion TraerUno(int numero)
         {
             //TODO Falta implementar código - Select a la tabla Habitacion....
             return null;

@@ -5,7 +5,22 @@
       "ProjectGuid": "22e78979-2f68-4206-b506-8fe0c9c752d2",
       "DisplayName": "SlnIntegrador",
       "ColorIndex": 0
+    },
+    "ca6b3732-c7bb-46f0-b8d9-aaa1e2be5210": {
+      "ProjectGuid": "ca6b3732-c7bb-46f0-b8d9-aaa1e2be5210",
+      "DisplayName": "Entidades",
+      "ColorIndex": 1
+    },
+    "f468f088-c1a1-43c8-bf38-f376339bfc24": {
+      "ProjectGuid": "f468f088-c1a1-43c8-bf38-f376339bfc24",
+      "DisplayName": "Negocio",
+      "ColorIndex": 2
+    },
+    "139380ad-15b6-4ab8-b44d-106b96b0b6bc": {
+      "ProjectGuid": "139380ad-15b6-4ab8-b44d-106b96b0b6bc",
+      "DisplayName": "Datos",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 4
 }
