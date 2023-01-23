@@ -9,3 +9,10 @@ C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\
 C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\obj\Debug\Negocio.csproj.CopyComplete
 C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\obj\Debug\Negocio.dll
 C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\obj\Debug\Negocio.pdb
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\bin\Debug\Negocio.dll.config
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\bin\Debug\EntityFramework.dll
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\bin\Debug\Datos.dll.config
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\bin\Debug\Entidades.dll.config
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\bin\Debug\EntityFramework.xml
+C:\Users\Usuario\OneDrive\Escritorio\ReposKaren\TP-integrador-POO\SlnIntegrador\Negocio\bin\Debug\EntityFramework.SqlServer.xml

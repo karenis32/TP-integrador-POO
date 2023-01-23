@@ -20,11 +20,16 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
+        private void MostrarMedicos()
+        {
+            gridMedicos.DataSource = AdmMedico.Listar();
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
             gridMedicos.DataSource = AdmMedico.Listar();
 
-            gridAlumnos.DataSource = AdmPaciente.Listar();
+            gridPacientes.DataSource = AdmPaciente.Listar();
 
         }
 
@@ -33,11 +38,11 @@ namespace WindowsFormsApp1
 
             List<Medico> ListaMedico = new List<Medico>();
 
-            ListaMedico.Add(new Medico(1, "Juan", "Perez", "Calle 123", "123456", "juan@hotmail", "Clinico", 1562));
-            ListaMedico.Add(new Medico(2, "Sofia", "Perez", "Calle 123", "123456", "sofia@hotmail", "Clinico", 1586));
-            ListaMedico.Add(new Medico(3, "Ana", "Perez", "Calle 123", "123456", "ana@hotmail", "Pediatra", 8952));
-            ListaMedico.Add(new Medico(4, "Pedro", "Santos", "Calle 123", "123456", "pedro@hotmail", "Traumatologo", 1562));
-            ListaMedico.Add(new Medico(5, "Andres", "Ramos", "Calle 123", "123456", "andres@hotmail", "Traumatologo", 6523));
+            ListaMedico.Add(new Medico("Juan", "Perez", "Calle 123", "123456", "juan@hotmail", "Clinico", 1562));
+            ListaMedico.Add(new Medico("Sofia", "Perez", "Calle 123", "123456", "sofia@hotmail", "Clinico", 1586));
+            ListaMedico.Add(new Medico("Ana", "Perez", "Calle 123", "123456", "ana@hotmail", "Pediatra", 8952));
+            ListaMedico.Add(new Medico("Pedro", "Santos", "Calle 123", "123456", "pedro@hotmail", "Traumatologo", 1562));
+            ListaMedico.Add(new Medico("Andres", "Ramos", "Calle 123", "123456", "andres@hotmail", "Traumatologo", 6523));
 
             int Contador = 0;
 
@@ -72,6 +77,51 @@ namespace WindowsFormsApp1
 
             }
 
+        }
+
+        private void btn_Insertar_Click(object sender, EventArgs e)
+        {
+            Medico medico = new Medico("Flor", "Sanchez", "Calle 123", "4654656", "flor@hotmail.com", "Pediatra", 6546);
+
+            int filasAfectadas = AdmMedico.Insertar(medico);
+
+            if (filasAfectadas > 0)
+            {
+                MessageBox.Show("Ok");
+                MostrarMedicos();
+
+            }
+        }
+
+        private void btn_Eliminar_Click(object sender, EventArgs e)
+        {
+            if (txtId.Text != "")
+            {
+                int id = Convert.ToInt32(txtId.Text);
+                Medico medico = AdmMedico.TraerUno(id);
+                if (medico != null)
+                {
+                    medico.Nombre = "jorge";
+                    int filasAfectadas = AdmMedico.Eliminar(medico.Id);
+
+                    if (filasAfectadas > 0)
+                    {
+                        MessageBox.Show("Ok");
+                        MostrarMedicos();
+                    }
+                }
+            }
+        }
+
+        private void btn_traerUno_Click(object sender, EventArgs e)
+        {
+            if (txtId.Text != "")
+            {
+                int id = Convert.ToInt32(txtId.Text);
+
+                Medico medico = AdmMedico.TraerUno(id);
+                MessageBox.Show(medico.Nombre);
+            }
         }
     }
 }

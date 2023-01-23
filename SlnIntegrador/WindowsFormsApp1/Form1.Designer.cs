@@ -31,14 +31,21 @@
             this.gridMedicos = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.gridAlumnos = new System.Windows.Forms.DataGridView();
+            this.gridPacientes = new System.Windows.Forms.DataGridView();
             this.medicosEspecialidad = new System.Windows.Forms.ListBox();
             this.btn_medicoEspecialidad = new System.Windows.Forms.Button();
             this.estadoHabitaciones = new System.Windows.Forms.ListBox();
             this.btn_estadoHabitaciones = new System.Windows.Forms.Button();
             this.lbl_cantMedicos = new System.Windows.Forms.Label();
+            this.btn_mostrarTodos = new System.Windows.Forms.Button();
+            this.btn_mostrarEspecialidad = new System.Windows.Forms.Button();
+            this.btn_Insertar = new System.Windows.Forms.Button();
+            this.btn_Eliminar = new System.Windows.Forms.Button();
+            this.btn_traerUno = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtId = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.gridMedicos)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridAlumnos)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridPacientes)).BeginInit();
             this.SuspendLayout();
             // 
             // gridMedicos
@@ -71,15 +78,15 @@
             this.label2.TabIndex = 2;
             this.label2.Text = "Lista de Pacientes";
             // 
-            // gridAlumnos
+            // gridPacientes
             // 
-            this.gridAlumnos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.gridAlumnos.Location = new System.Drawing.Point(45, 264);
-            this.gridAlumnos.Name = "gridAlumnos";
-            this.gridAlumnos.RowHeadersWidth = 51;
-            this.gridAlumnos.RowTemplate.Height = 24;
-            this.gridAlumnos.Size = new System.Drawing.Size(712, 149);
-            this.gridAlumnos.TabIndex = 3;
+            this.gridPacientes.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridPacientes.Location = new System.Drawing.Point(45, 264);
+            this.gridPacientes.Name = "gridPacientes";
+            this.gridPacientes.RowHeadersWidth = 51;
+            this.gridPacientes.RowTemplate.Height = 24;
+            this.gridPacientes.Size = new System.Drawing.Size(712, 149);
+            this.gridPacientes.TabIndex = 3;
             // 
             // medicosEspecialidad
             // 
@@ -127,17 +134,89 @@
             this.lbl_cantMedicos.Size = new System.Drawing.Size(0, 16);
             this.lbl_cantMedicos.TabIndex = 8;
             // 
+            // btn_mostrarTodos
+            // 
+            this.btn_mostrarTodos.Location = new System.Drawing.Point(48, 495);
+            this.btn_mostrarTodos.Name = "btn_mostrarTodos";
+            this.btn_mostrarTodos.Size = new System.Drawing.Size(118, 56);
+            this.btn_mostrarTodos.TabIndex = 9;
+            this.btn_mostrarTodos.Text = "Mostrar todos los médicos";
+            this.btn_mostrarTodos.UseVisualStyleBackColor = true;
+            // 
+            // btn_mostrarEspecialidad
+            // 
+            this.btn_mostrarEspecialidad.Location = new System.Drawing.Point(189, 495);
+            this.btn_mostrarEspecialidad.Name = "btn_mostrarEspecialidad";
+            this.btn_mostrarEspecialidad.Size = new System.Drawing.Size(118, 56);
+            this.btn_mostrarEspecialidad.TabIndex = 10;
+            this.btn_mostrarEspecialidad.Text = "Mostrar médicos por especialidad";
+            this.btn_mostrarEspecialidad.UseVisualStyleBackColor = true;
+
+            // 
+            // btn_Insertar
+            // 
+            this.btn_Insertar.Location = new System.Drawing.Point(339, 495);
+            this.btn_Insertar.Name = "btn_Insertar";
+            this.btn_Insertar.Size = new System.Drawing.Size(118, 56);
+            this.btn_Insertar.TabIndex = 11;
+            this.btn_Insertar.Text = "Insertar médico";
+            this.btn_Insertar.UseVisualStyleBackColor = true;
+            this.btn_Insertar.Click += new System.EventHandler(this.btn_Insertar_Click);
+            // 
+            // btn_Eliminar
+            // 
+            this.btn_Eliminar.Location = new System.Drawing.Point(492, 495);
+            this.btn_Eliminar.Name = "btn_Eliminar";
+            this.btn_Eliminar.Size = new System.Drawing.Size(118, 56);
+            this.btn_Eliminar.TabIndex = 12;
+            this.btn_Eliminar.Text = "Eliminar médico";
+            this.btn_Eliminar.UseVisualStyleBackColor = true;
+            this.btn_Eliminar.Click += new System.EventHandler(this.btn_Eliminar_Click);
+            // 
+            // btn_traerUno
+            // 
+            this.btn_traerUno.Location = new System.Drawing.Point(640, 495);
+            this.btn_traerUno.Name = "btn_traerUno";
+            this.btn_traerUno.Size = new System.Drawing.Size(118, 56);
+            this.btn_traerUno.TabIndex = 13;
+            this.btn_traerUno.Text = "Traer uno por ID";
+            this.btn_traerUno.UseVisualStyleBackColor = true;
+            this.btn_traerUno.Click += new System.EventHandler(this.btn_traerUno_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(48, 456);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(66, 16);
+            this.label3.TabIndex = 14;
+            this.label3.Text = "Inserte ID:";
+            // 
+            // txtId
+            // 
+            this.txtId.Location = new System.Drawing.Point(121, 456);
+            this.txtId.Name = "txtId";
+            this.txtId.Size = new System.Drawing.Size(100, 22);
+            this.txtId.TabIndex = 15;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1141, 601);
+            this.Controls.Add(this.txtId);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.btn_traerUno);
+            this.Controls.Add(this.btn_Eliminar);
+            this.Controls.Add(this.btn_Insertar);
+            this.Controls.Add(this.btn_mostrarEspecialidad);
+            this.Controls.Add(this.btn_mostrarTodos);
             this.Controls.Add(this.lbl_cantMedicos);
             this.Controls.Add(this.btn_estadoHabitaciones);
             this.Controls.Add(this.estadoHabitaciones);
             this.Controls.Add(this.btn_medicoEspecialidad);
             this.Controls.Add(this.medicosEspecialidad);
-            this.Controls.Add(this.gridAlumnos);
+            this.Controls.Add(this.gridPacientes);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.gridMedicos);
@@ -145,7 +224,7 @@
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridMedicos)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.gridAlumnos)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.gridPacientes)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -156,12 +235,19 @@
         private System.Windows.Forms.DataGridView gridMedicos;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.DataGridView gridAlumnos;
+        private System.Windows.Forms.DataGridView gridPacientes;
         private System.Windows.Forms.ListBox medicosEspecialidad;
         private System.Windows.Forms.Button btn_medicoEspecialidad;
         private System.Windows.Forms.ListBox estadoHabitaciones;
         private System.Windows.Forms.Button btn_estadoHabitaciones;
         private System.Windows.Forms.Label lbl_cantMedicos;
+        private System.Windows.Forms.Button btn_mostrarTodos;
+        private System.Windows.Forms.Button btn_mostrarEspecialidad;
+        private System.Windows.Forms.Button btn_Insertar;
+        private System.Windows.Forms.Button btn_Eliminar;
+        private System.Windows.Forms.Button btn_traerUno;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtId;
     }
 }
 
